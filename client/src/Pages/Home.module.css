@@ -1,0 +1,49 @@
+/* Home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Limit the height */
+    width: 300px;  /* Set a fixed width */
+    background-color: #f9f9f9; /* Softer background */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Modern font */
+    color: #333;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+h2 {
+    font-size: 1.5rem; /* Smaller font size */
+    margin-bottom: 20px; /* Adjusted space */
+    font-weight: 600;
+    color: #444; /* Darker text for contrast */
+}
+
+.logoutButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded edges for a modern look */
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase; /* Capitalize text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.logoutButton:hover {
+    background-color: #e04343;
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+}
+
+.logoutButton:active {
+    background-color: #c23535;
+    transform: translateY(0); /* Button returns to normal position on click */
+}
