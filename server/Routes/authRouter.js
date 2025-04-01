@@ -6,4 +6,7 @@ const {signupValidation,loginValidation}=require('../middlewares/inputValidation
 router.post('/register',signupValidation,authController.registerUser);
 router.post('/login',loginValidation,authController.loginUser);
 
+router.post('/reset-password',authController.mailResetLink);
+router.post('/reset-password/:token',authController.resetPassword);
+
 module.exports=router;

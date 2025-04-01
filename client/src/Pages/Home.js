@@ -18,7 +18,7 @@ const Home = () => {
 
     return (
         <div className={styles.container}>
-            <h2>Welcome {username}</h2>
+            <h2>WELCOME {username.toUpperCase()}</h2>
             <Link to='/logout' className={styles.logoutButton}>Logout</Link>
         </div>
     );

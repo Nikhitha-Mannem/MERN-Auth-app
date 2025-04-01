@@ -65,6 +65,7 @@ const Register = () => {
           <button type="button" onClick={resetForm} className={styles.clearButton}>Clear</button>
 
           <p className={styles.signupLink}>Don't have an Account? <Link to="/register">SignUp</Link></p>
+          <Link to="/reset-password">Reset Password</Link>
         </Form>
       )}
     </Formik>

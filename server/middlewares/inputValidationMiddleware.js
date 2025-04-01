@@ -1,7 +1,5 @@
 const Joi=require('joi');
 const signupValidation=(req,res,next)=>{
-    console.log("inside singup middleware")
-    
     const schema=Joi.object({
         username:Joi.string().min(4).max(8).required(),
         email:Joi.string().email().required(),
