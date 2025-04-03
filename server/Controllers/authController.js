@@ -11,8 +11,8 @@ exports.registerUser=async (req,res,next)=>{
     const transporter=nodemailer.createTransport({
         service:'gmail',
         auth:{
-            user:'nikhithamannem123@gmail.com',
-            pass:'feew xiaq llxv gmks'
+            user:'sample@gmail.com',
+            pass:'**** **** **** ****'
         }
     })
     try {
