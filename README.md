@@ -42,12 +42,19 @@ A full-stack authentication application built using the **MERN (MongoDB, Express
 - **nodemon**: For auto-restarting the server during development.
 
 ---
+**SCREENSHOTS**
+
+
+<img width="1178" alt="Screenshot 2025-04-07 at 6 05 13 PM" src="https://github.com/user-attachments/assets/aa65efb1-f223-432b-9c61-e6073e3a0552" />
+<img width="1178" alt="Screenshot 2025-04-07 at 6 07 41 PM" src="https://github.com/user-attachments/assets/611ca758-23fa-4e0f-950c-55f0b8844c78" />
+
+
 
 ## 📥 Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/mern-auth-app.git
+   git clone https://github.com/nikhitha-mannem/mern-auth-app.git
 
    ```
 2. Changing Dict.
