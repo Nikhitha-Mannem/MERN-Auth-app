@@ -67,19 +67,6 @@ A full-stack authentication application built using the **MERN (MongoDB, Express
 
    npm start
    ```
-4. Floder Sturcture
-   ```
-   mern-auth-app
-├── client       # Frontend (React)
-├── server       # Backend (Node.js, Express)
-├── models       # Mongoose schemas
-├── routes       # API routes
-├── controllers  # Request handling and business logic
-├── middleware   # JWT authentication middleware
-├── utils        # Utility functions (email sending, token generation)
-├── .env         # Environment variables
-├── package.json
-└── README.md
-```
+
 
    
